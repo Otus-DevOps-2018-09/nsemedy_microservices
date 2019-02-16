@@ -38,3 +38,6 @@ nsemedy microservices repository
 - Произведено знакомство с ui prometheus
 - Мониторинг состояния микросервисов
 - Собраны метрики хоста с использованием экспортера
+
+Ссылка на докерхаб:
+https://cloud.docker.com/u/semedy/repository/list

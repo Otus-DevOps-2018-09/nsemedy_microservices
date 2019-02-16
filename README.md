@@ -27,3 +27,8 @@ nsemedy microservices repository
 - Установлен gitlab
 - Подготовлен репозиторий с кодом приложения
 - Описаны стейджи CI в gitlab-ci.yml
+
+# Homework 16
+- Создан новый проект в gitlab
+- Расширен пайплан
+- Определены окружения

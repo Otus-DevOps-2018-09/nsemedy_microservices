@@ -41,3 +41,12 @@ nsemedy microservices repository
 
 Ссылка на докерхаб:
 https://cloud.docker.com/u/semedy/repository/list
+
+# Homework 19
+- Мониторинг докер-контейнеров
+- Импорт готового дашборда в графану
+- Сбор метрик работы приложения и бизнес метрик
+- Настроен алертирг
+
+Ссылка на докерхаб:
+https://cloud.docker.com/u/semedy/repository/list

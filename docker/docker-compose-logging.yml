@@ -14,7 +14,7 @@ services:
           - fluentd
 
   elasticsearch:
-    image: elasticsearch:5.6
+    image: elasticsearch:5
     expose:
       - 9200
     ports:
@@ -26,9 +26,8 @@ services:
       front_net:
         aliases:
           - elasticksearch
-
   kibana:
-    image: kibana:5.6
+    image: kibana:5
     ports:
       - "5601:5601"
     networks:
@@ -38,15 +37,14 @@ services:
       front_net:
         aliases:
           - kibana
-
   zipkin:
-    image: openzipkin/zipkin
+    image: openzipkin/zipkin:2.11.8
     ports:
-      - "9411:9411" 
+      - "9411:9411"
     networks:
       - front_net
       - back_net
-
+  
 networks:
   front_net:
     driver: bridge
@@ -58,4 +56,3 @@ networks:
     ipam:
       config:
         - subnet: 10.128.1.0/24
-        

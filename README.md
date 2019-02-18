@@ -28,7 +28,16 @@ nsemedy microservices repository
 - Подготовлен репозиторий с кодом приложения
 - Описаны стейджи CI в gitlab-ci.yml
 
-# Homework 16
+# Homework 17
 - Создан новый проект в gitlab
 - Расширен пайплан
 - Определены окружения
+
+# Homework 18
+- Установлен prometheus
+- Произведено знакомство с ui prometheus
+- Мониторинг состояния микросервисов
+- Собраны метрики хоста с использованием экспортера
+
+Ссылка на докерхаб:
+https://cloud.docker.com/u/semedy/repository/list

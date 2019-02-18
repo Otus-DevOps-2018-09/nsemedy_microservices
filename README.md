@@ -22,3 +22,8 @@ nsemedy microservices repository
 - Созданы две сети: front_net, back_net
 - Создан и параметризован файл docker-compose
 Имя проекта можно задать с помощью переменной COMPOSE_PROJECT_NAME или ключом -p при старте
+
+# Homework 16
+- Установлен gitlab
+- Подготовлен репозиторий с кодом приложения
+- Описаны стейджи CI в gitlab-ci.yml

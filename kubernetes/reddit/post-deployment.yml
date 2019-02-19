@@ -14,7 +14,7 @@ spec:
       component: post
   template:
     metadata:
-      name: post
+      name: post-pod
       labels:
         app: reddit
         component: post
@@ -22,3 +22,5 @@ spec:
       containers:
       - image: semedy/post
         name: post
+        env:
+        - name: POST_DATABASE_HOST

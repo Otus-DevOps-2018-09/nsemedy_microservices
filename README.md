@@ -60,3 +60,8 @@ https://cloud.docker.com/u/semedy/repository/list
 # Homework 21
 - Kubernetes развернут вручную, используя The Hard Way
 - Созданы деплоймент-манифесты приложений ui, comment и монго
+
+# Homework 22
+- Установлен миникуб
+- Локально развернуто приложение
+- Запущено приложение reddit в GKE

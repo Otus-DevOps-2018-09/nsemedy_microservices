@@ -56,3 +56,7 @@ https://cloud.docker.com/u/semedy/repository/list
 - Визуализация логов
 - Сбор структурированных логов
 - Сбор структурированных логов
+
+# Homework 21
+- Kubernetes развернут вручную, используя The Hard Way
+- Созданы деплоймент-манифесты приложений ui, comment и монго

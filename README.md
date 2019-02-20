@@ -68,7 +68,7 @@ https://cloud.docker.com/u/semedy/repository/list
 
 # Homework 23
 - Создан ingress для сервиса ui
-- Убрал балансировщик из ui-service.yml
+- Убран балансировщик из ui-service.yml
 - Ingress настроен на прием трафика HTTPS
 - Включен network-policy для GKE
 - Ограничен трафик, поступающий на mongodb отовсюду, кроме сервиса comment

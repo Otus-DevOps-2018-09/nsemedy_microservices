@@ -65,3 +65,13 @@ https://cloud.docker.com/u/semedy/repository/list
 - Установлен миникуб
 - Локально развернуто приложение
 - Запущено приложение reddit в GKE
+
+# Homework 23
+- Создан ingress для сервиса ui
+- Убрал балансировщик из ui-service.yml
+- Ingress настроен на прием трафика HTTPS
+- Включен network-policy для GKE
+- Ограничен трафик, поступающий на mongodb отовсюду, кроме сервиса comment
+- Использован Volume gcePersistentDisk
+- Подключен PVC к mongo
+- Создан StorageClass Fast для создания хранилищ в автоматическом режиме

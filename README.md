@@ -75,3 +75,7 @@ https://cloud.docker.com/u/semedy/repository/list
 - Использован Volume gcePersistentDisk
 - Подключен PVC к mongo
 - Создан StorageClass Fast для создания хранилищ в автоматическом режиме
+
+# Homework 24
+- Установлен и настроен helm
+- Установлен и настроен gitlab в kubernetes

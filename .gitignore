@@ -8,3 +8,4 @@ build_info.txt
 .idea/workspace.xml
 tls.crt
 tls.key
+kubernetes/Gitlab_ci/

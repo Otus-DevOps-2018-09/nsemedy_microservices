@@ -63,5 +63,5 @@ https://cloud.docker.com/u/semedy/repository/list
 
 # Homework 22
 - Установлен миникуб
-- Локально развернуто приложение
+- Локально развернуто приложение 
 - Запущено приложение reddit в GKE

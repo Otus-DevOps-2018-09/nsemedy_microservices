@@ -68,12 +68,14 @@ https://cloud.docker.com/u/semedy/repository/list
 
 # Homework 23
 - Создан ingress для сервиса ui
-- Убрал балансировщик из ui-service.yml
+- Убран балансировщик из ui-service.yml
 - Ingress настроен на прием трафика HTTPS
 - Включен network-policy для GKE
 - Ограничен трафик, поступающий на mongodb отовсюду, кроме сервиса comment
 - Использован Volume gcePersistentDisk
 - Подключен PVC к mongo
 - Создан StorageClass Fast для создания хранилищ в автоматическом режиме
-- Локально развернуто приложение 
-- Запущено приложение reddit в GKE
+
+# Homework 24
+- Установлен и настроен helm
+- Установлен и настроен gitlab в kubernetes

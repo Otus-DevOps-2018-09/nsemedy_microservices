@@ -75,3 +75,5 @@ https://cloud.docker.com/u/semedy/repository/list
 - Использован Volume gcePersistentDisk
 - Подключен PVC к mongo
 - Создан StorageClass Fast для создания хранилищ в автоматическом режиме
+- Локально развернуто приложение 
+- Запущено приложение reddit в GKE

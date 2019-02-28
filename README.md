@@ -79,3 +79,8 @@ https://cloud.docker.com/u/semedy/repository/list
 # Homework 24
 - Установлен и настроен helm
 - Установлен и настроен gitlab в kubernetes
+
+# Homework 25
+- Prometheus развернут в k8s
+- Prometheus и Grafana настроены для сбора метрик
+- Шаблонизированные дашборды для reddit кластера лежат в папке kubernetes/grafana/dashboards
